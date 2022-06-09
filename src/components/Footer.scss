@@ -1,0 +1,49 @@
+.contenedor-footer {
+    background-color: rgb(24, 24, 24);
+    padding: 20px;
+}
+
+.in-footer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Mukta';
+    color: rgb(68, 68, 68);
+    font-size: 15px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-icon {
+    text-decoration: none;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 22px;
+    color: rgb(68, 68, 68);
+}
+.footer-icon:hover {  
+    color: rgb(150, 150, 150);
+    transition: 0.6s;
+    text-decoration: overline;
+}
+
+.footer-year {
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+    color: rgb(68, 68, 68);
+    font-family: 'Mukta';
+    font-size: 12px;
+    
+}
+.footer-job {
+    display: flex;
+
+    justify-content: flex-start;
+    color: rgb(68, 68, 68);
+    font-family: 'Mukta';
+    font-size: 12px;
+    
+}

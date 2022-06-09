@@ -1,0 +1,15 @@
+.contenedor-error-agogo {
+   color: #fff;
+   font-size: 40px;
+   font-family: 'Mukta';
+   margin-top: 115px;
+   margin-bottom: 115px;
+}
+
+@media (max-width: 858px){
+    .contenedor-error-agogo {
+        font-size: 16px;
+        margin-top: 170px;
+        margin-bottom: 170px;
+    }
+}

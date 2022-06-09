@@ -1,0 +1,208 @@
+.contenedor-card-boton-1 {
+    display:inline-flex;
+    justify-content: center;
+    margin-top: 110px;
+    margin-bottom: 110px;
+    
+}
+
+
+.Background-Card-Poryects {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(22, 22, 22);
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px 0px #fff;
+    font-family: 'Mukta';
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+//BOTON STYLES GET SATARTED
+.cssbuttons-io-button {
+    background: #A370F0;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+   }
+   
+   .cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+    right: 0.3em;
+    transition: all 0.3s;
+   }
+   
+   .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+   }
+   
+   .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #7b52b9;
+   }
+   
+   .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+   }
+   
+   .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+}
+
+
+//BOTON ESTYLO SHARE REDES
+.button {
+    font-family: inherit;
+    font-weight: 400;
+    background: #f2295b;
+    color: white;
+    padding: 0.35em 0;
+    font-size: 17px;
+    border: none;
+    border-radius: 0.7em;
+    letter-spacing: 0.08em;
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 2.1em;
+    padding-left: 3em;
+    padding-right: 0.7em;
+   }
+   
+   .button .icon {
+    background: #fff;
+    margin-right: 1em;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.5em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0.3em;
+    transition: all .7s;
+   }
+   
+   .shere {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-left: 4px;
+   }
+   
+   .button:hover .icon {
+    width: calc(100% - 0.6rem);
+   }
+   
+   .button:hover .shere {
+    width: calc(100% - 0.6rem);
+    display: none;
+   }
+   
+   .button .icon-shere {
+    color: #f2295b;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: none;
+   }
+   
+   .button:hover .icon .icon-shere {
+    display: flex;
+   }
+
+
+
+//CONTENDIO DE TEXTO DEL CARD
+.text-boton-get-started {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 15px;
+}
+.btn-ver-codigo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 7px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Mukta';
+    cursor: pointer;
+    color: rgb(204, 204, 204);
+    background-color: rgb(44, 44, 44);
+    
+}
+.btn-ver-codigo:hover {
+    background-color: rgb(204, 204, 204);
+    color: rgb(44, 44, 44);
+    transition: 0.6s;
+}
+.contenedor-proyecto {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-lenguajes {
+    display: flex;
+    justify-content: center;
+    color: rgb(90, 90, 90);
+    font-size: 20px;
+    font-family: 'Mukta';
+    margin-bottom: 10px;
+
+}
+
+.icon-lenguajes {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+//RESPONSIV
+@media (max-width: 952px){
+    .contenedor-card-boton-1 {
+        display:flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;   
+    }
+    
+  }
+  @media (max-width: 858px){
+    .contenedor-card-boton-1 {
+        display:flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }    
+}
+
+
+
