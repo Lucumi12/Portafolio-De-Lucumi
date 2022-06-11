@@ -26,25 +26,27 @@ return (
 
   <div className='contenedor-principal-avatarjsx'>
     <div className='card-contenedor'>
-      <div className='card'>
-        <div className='container'>
-          <h4 className='title-tecnologias'>TECNOLOGIAS</h4>
-          <div className='contenedor-flex-tecnologias'>
-          <p className='p-sub-tecnologias'><i class="fa-brands fa-html5"></i> HTML</p>
-          <p className='p-sub-tecnologias'><i class="fa-brands fa-css3-alt"></i> CSS</p>
+      <div className='card-tecnologias'>
+        <center>
+          <div className='container'>
+            <h4 className='title-tecnologias'>TECNOLOGIAS</h4>
+            <div className='contenedor-flex-tecnologias'>
+              <p className='p-sub-tecnologias'><i class="fa-brands fa-html5"></i> HTML</p>
+              <p className='p-sub-tecnologias'><i class="fa-brands fa-css3-alt"></i> CSS</p>
+            </div>
+            <div className='contenedor-flex-tecnologias'>
+              <p className='p-sub-tecnologias'><i class="fa-brands fa-js"></i> JAVASCRIPT</p>
+              <p className='p-sub-tecnologias'><i class="fa-brands fa-react"></i> REACT</p>
+            </div>
+            <p className='p-sub-tecnologias'><i class="fa-brands fa-sass"></i> SASS</p>
           </div>
-          <div className='contenedor-flex-tecnologias'>
-          <p className='p-sub-tecnologias'><i class="fa-brands fa-js"></i> JAVASCRIPT</p>
-          <p className='p-sub-tecnologias'><i class="fa-brands fa-react"></i> REACT</p>
-          </div>
-          <p className='p-sub-tecnologias'><i class="fa-brands fa-sass"></i> SASS</p>
-        </div>
+        </center>
       </div>
     </div>
   </div>
   <div className='contendor-button-ver-ultimo-proyecto'>
     <button className='btn-ver-ultimo-proyecto'>
-    <i class="fa-solid fa-cubes"></i> VER ULTIMO PROYECTO
+      <i class="fa-solid fa-cubes"></i> VER ULTIMO PROYECTO
     </button>
   </div>
 </>
