@@ -42,7 +42,11 @@ return (
       </div>
     </div>
   </div>
-  
+  <div className='contendor-button-ver-ultimo-proyecto'>
+    <button className='btn-ver-ultimo-proyecto'>
+    <i class="fa-solid fa-cubes"></i> VER ULTIMO PROYECTO
+    </button>
+  </div>
 </>
 )
 }

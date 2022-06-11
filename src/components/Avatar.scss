@@ -6,7 +6,7 @@
 .card-contenedor {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     margin-left: 20px;
     margin-right: 20px;
 
@@ -14,8 +14,8 @@
 
 .card-contenedor-tecnologias {
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     margin-left: 20px;
     margin-right: 20px;
 
@@ -75,3 +75,47 @@
     width: 400px;
 }
 
+.fa-html5 {
+    color: rgb(248, 166, 42);
+}
+
+.fa-css3-alt {
+    color: rgb(64, 152, 187);
+}
+
+.fa-js {
+    color: rgb(253, 214, 38);
+}
+
+.fa-react {
+    color: rgb(176, 237, 255);
+}
+
+.fa-sass {
+    color: rgb(255, 187, 252);
+}
+
+.contendor-button-ver-ultimo-proyecto {
+    margin-bottom: 60px;
+}
+
+.btn-ver-ultimo-proyecto {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 7px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Mukta';
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(204, 204, 204);
+    background-color: rgb(19, 19, 19);
+    
+}
+.btn-ver-ultimo-proyecto:hover {
+    background-color: rgb(204, 204, 204);
+    color: rgb(44, 44, 44);
+    transition: 0.6s;
+}
