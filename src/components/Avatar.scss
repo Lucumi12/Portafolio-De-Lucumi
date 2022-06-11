@@ -1,14 +1,23 @@
-.card-contenedor {
-    display: flex;
-    position: relative;
+.contenedor-principal-avatarjsx {
+    display: inline-flex;
     justify-content: center;
-    align-items: center;
+}
+
+.card-contenedor {
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 100px;
     margin-left: 20px;
     margin-right: 20px;
-    
+
+}
+
+.card-contenedor-tecnologias {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 
@@ -40,3 +49,29 @@
     padding-left: 7px;
     padding-right: 7px;
 }
+
+
+//TECNOLOGIAS
+
+.title-tecnologias {
+    font-family: 'Mukta';
+    color: #fff;
+    font-size: 45px;
+    padding-top: 10px;
+}
+
+.p-sub-tecnologias {
+    font-family: 'Mukta';
+    font-size: 20px;
+    color: rgb(139, 139, 139);
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 15.2px;
+}
+
+.contenedor-flex-tecnologias {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+

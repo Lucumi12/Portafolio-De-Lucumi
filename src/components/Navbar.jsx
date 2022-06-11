@@ -19,13 +19,13 @@ return (
         <label className='logo'><i class="fa-solid fa-at"></i>Lucumi.tk</label>
         <ul>
             <li>
-                <NavLink to='/' className='nav-a active'><i className='fa-solid fa-house'></i> Home</NavLink>
+                <NavLink to='/' className='nav-a active'><i className='fa-solid fa-house'></i> Inicio</NavLink>
             </li>
             <li>
-                <NavLink to='/proyects' className='nav-a'><i className='fa-solid fa-diagram-project'></i> Proyects</NavLink>
+                <NavLink to='/proyectos' className='nav-a'><i className='fa-solid fa-diagram-project'></i> Proyectos</NavLink>
             </li>
             <li>
-                <NavLink to='/contact' className='nav-a'><i className='fa-solid fa-id-card'></i> Contact</NavLink>
+                <NavLink to='/contacto' className='nav-a'><i className='fa-solid fa-id-card'></i> Contacto</NavLink>
             </li>
         </ul>
     </nav>

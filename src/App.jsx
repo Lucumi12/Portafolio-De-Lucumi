@@ -17,12 +17,11 @@ return (
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home />} />
-      <Route path='/proyects' element={<Proyects />}/>
-      <Route path='/contact' element={<Contact />}/>
+      <Route path='/proyectos' element={<Proyects />}/>
+      <Route path='/contacto' element={<Contact />}/>
       <Route path='*' element={<NotFound />}/>
     </Routes>
   </BrowserRouter>
-
 </>
 )
 }

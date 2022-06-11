@@ -22,56 +22,49 @@
 }
 
 
-.button-telegram {
-    font-family: inherit;
-    background: #2CA0D9;
-    color: white;
-    padding: 0.35em 0;
-    font-size: 17px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    border: none;
-    border-radius: 0.7em;
-    letter-spacing: 0.08em;
-    position: relative;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    overflow: hidden;
-    height: 2.1em;
-    padding-left: 2.8em;
-    padding-right: 0.9em;
+
+.card-mac {
+    width: 190px;
+    height: 254px;
+    margin: 0 auto;
+    background-color: #F8FBFE;
+    border-radius: 8px;
+    z-index: 1;
    }
    
-   .button-telegram .icon-telegram {
-    background: #fff;
-    height: 2em;
-    width: 2em;
-    border-radius: 2em;
-    position: absolute;
+   .tools-mac {
     display: flex;
     align-items: center;
-    justify-content: center;
-    left: 0.4em;
-    transition: all 0.5s;
+    padding: 9px;
    }
    
-   .icon-telegram svg {
-    margin-left: 0.4em;
-    transition: all 0.5s;
-    color: #2CA0D9;
-    width: 1.2rem;
-    height: 1.2rem;
+   .circle-mac {
+    padding: 0 4px;
    }
    
-   .button-telegram:hover .icon-telegram svg {
-    transform: rotate(360deg);
+   .box-mac {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
    }
    
-   .button-telegram:hover .icon-telegram {
-    width: calc(100% - 0.85rem);
-    border-radius: 0.5em;
+   .red-mac {
+    background-color: #ff605c;
    }
+   
+   .yellow-mac {
+    background-color: #ffbd44;
+   }
+   
+   .green-mac {
+    background-color: #00ca4e;
+   }
+   
+
+
 
 
 //CONTENDIO DE TEXTO DEL CARD
