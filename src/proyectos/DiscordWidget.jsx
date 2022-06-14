@@ -18,8 +18,7 @@ return (
                 </div>
                 <center>
                     <h1 className='text-comunidad-nmsk-amigos'>NMSK-AMIGOS</h1>
-                    <a href='https://discord.gg/nmsk-amigos' target='_blank'><button className='btn-discord-aceptar-invitacion'><i className="fa-brands fa-discord"></i>
-                            Aceptar Invitacion</button></a>
+                    <a href='https://discord.gg/nmsk-amigos' target='_blank'><button className='btn-discord-aceptar-invitacion'><i className="fa-brands fa-discord"></i> Aceptar Invitacion</button></a>
                 </center>
             </div>
         </div>
