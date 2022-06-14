@@ -3,11 +3,13 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
+
 //PORYECTOS
 import ButtonGetStarted from '../proyectos/ButtonGetStarted'
 import ButtonShareMe from '../proyectos/ButtonShareMe'
 import ButtonTelegram from '../proyectos/ButtonTelegram'
 import CardRGB1 from '../proyectos/CardRGB1'
+import DiscordWidget from '../proyectos/DiscordWidget'
 
 
 
@@ -21,6 +23,7 @@ const Proyects = () => {
     <ButtonShareMe />
     <ButtonTelegram />
     <CardRGB1 />
+    <DiscordWidget />
     </center>
     <Footer />
     </>
