@@ -106,6 +106,13 @@
     color: rgb(255, 187, 252);
 }
 
+.fa-figma {
+    background: rgb(255,144,88);
+    background: linear-gradient(180deg, rgba(255,144,88,1) 0%, rgba(190,59,255,1) 50%, rgba(112,255,150,1) 100%);
+ -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .contendor-button-ver-ultimo-proyecto {
     margin-bottom: 190px;
 }

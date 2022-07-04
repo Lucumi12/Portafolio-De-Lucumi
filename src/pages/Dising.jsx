@@ -1,18 +1,18 @@
 //COMPONENTES
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import Contacto from '../components/Contacto'
 
 
-//CONTENIDO
-const Contact = () => {
+
+//FUNCION
+const Dising = () => {
   return (
     <>
     <Navbar />
-    <Contacto />
+    <div>HOLA</div>
     <Footer />
     </>
-  )
+  ) 
 }
 
-export default Contact
+export default Dising

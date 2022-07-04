@@ -12,7 +12,6 @@ import CardRGB1 from '../proyectos/CardRGB1'
 import DiscordWidget from '../proyectos/DiscordWidget'
 
 
-
 //CONTENIDO
 const Proyects = () => {
   return (

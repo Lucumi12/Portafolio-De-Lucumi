@@ -31,14 +31,17 @@ return (
           <div className='container'>
             <h4 className='title-tecnologias'>TECNOLOGIAS</h4>
             <div className='contenedor-flex-tecnologias'>
-              <p className='p-sub-tecnologias'><i class="fa-brands fa-html5"></i> HTML</p>
-              <p className='p-sub-tecnologias'><i class="fa-brands fa-css3-alt"></i> CSS</p>
+              <p className='p-sub-tecnologias'><i className="fa-brands fa-html5"></i> HTML</p>
+              <p className='p-sub-tecnologias'><i className="fa-brands fa-css3-alt"></i> CSS</p>
             </div>
             <div className='contenedor-flex-tecnologias'>
               <p className='p-sub-tecnologias'><i class="fa-brands fa-js"></i> JAVASCRIPT</p>
-              <p className='p-sub-tecnologias'><i class="fa-brands fa-react"></i> REACT</p>
+              <p className='p-sub-tecnologias'><i className="fa-brands fa-react"></i> REACT</p>
             </div>
-            <p className='p-sub-tecnologias'><i class="fa-brands fa-sass"></i> SASS</p>
+            <div className='contenedor-flex-tecnologias'>
+            <p className='p-sub-tecnologias'><i className="fa-brands fa-sass"></i> SASS</p>
+            <p className='p-sub-tecnologias'><i className="fa-brands fa-figma"></i> FIGMA</p>
+            </div>
           </div>
         </center>
       </div>

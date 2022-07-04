@@ -22,7 +22,11 @@ return (
                 <NavLink to='/' className='nav-a active'><i className='fa-solid fa-house'></i> Inicio</NavLink>
             </li>
             <li>
-                <NavLink to='/proyectos' className='nav-a'><i className='fa-solid fa-diagram-project'></i> Proyectos</NavLink>
+                <NavLink to='/proyectos' className='nav-a'><i className='fa-solid fa-diagram-project'></i> Proyectos
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to='/diseños' className='nav-a'><i className="fa-solid fa-palette"></i> Diseños</NavLink>
             </li>
             <li>
                 <NavLink to='/contacto' className='nav-a'><i className='fa-solid fa-id-card'></i> Contacto</NavLink>
