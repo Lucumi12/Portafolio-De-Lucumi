@@ -1,0 +1,18 @@
+.contenedor-all-diseños{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Mukta';
+    font-size: 15px;
+    margin: 0px 40px 20px 40px;
+    flex-wrap: wrap;
+}
+
+.contenedor-tile-diseños {
+    color: #fff;
+    font-family: 'Mukta';
+    padding: 0px 0px 20px 30px;
+}

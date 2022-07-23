@@ -1,0 +1,42 @@
+
+.card-imagenes {
+    background-color: rgb(19, 19, 19);
+    width: 350px;
+    height: 380px;
+    border-radius: 10px;
+    margin: 0px 20px 20px 20px;
+}
+
+.img-padding {
+    padding: 0px 30px 0px 30px;
+}
+
+.title-img {
+    font-family: 'Mukta';
+    color: rgb(207, 207, 207);
+    font-size: 25px;
+    padding: 10px 0px 10px 0px;
+}
+
+.img-description {
+    font-family: 'Mukta';
+    color: rgb(89, 89, 89);
+    font-size: 15px;
+    padding: 5px 20px 5px 20px;
+}
+
+.img-hecha-con {
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 20px 5px 20px;
+}
+
+.img-icons-lore {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.figma-10-p {
+    font-family: 24px;
+}
