@@ -11,6 +11,9 @@ import './Proyects.scss'
 import DiscordWidget from '../proyectos/DiscordWidget'
 import EmbedLucumi from './diseños/EmbedLucumi'
 import EmbedTowebgo from './diseños/EmbedTowebgo'
+import BrochureColDevs from './diseños/BrochureColDevs'
+import PortfolioGreen from './diseños/PortfolioGreen'
+import TemplateWebUI from './diseños/TemplateWebUI'
 
 
 
@@ -27,6 +30,9 @@ return (
   <div className='contenedor-all-diseños'>
     <EmbedLucumi />
     <EmbedTowebgo />
+    <BrochureColDevs />
+    <PortfolioGreen />
+    <TemplateWebUI />
   </div>
 
 
