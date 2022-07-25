@@ -34,6 +34,10 @@ return (
       <img className='img-padding' src={EdLucumi} width='100%'></img>
       </div>
       <div className="modal-footer">
+      <div className='icons-lore-modal'>
+            <h3 className='img-hecha-con'>DISEÑADO CON:</h3>
+            <span><i className="fa-brands fa-figma figma-10-p"></i></span>
+          </div>
       </div>
     </div>
   </div>
