@@ -40,10 +40,20 @@
 }
 .footer-job {
     display: flex;
-
     justify-content: flex-start;
     color: rgb(68, 68, 68);
     font-family: 'Mukta';
     font-size: 12px;
-    
+}
+
+.footer-text-job {
+    font-size: 30px;
+}
+
+.footer-text-year {
+    font-size: 30px;
+}
+
+.in-footer-text {
+    font-size: 35px;
 }

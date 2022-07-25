@@ -23,7 +23,7 @@ return (
 <>
   <Navbar />
   <div className='contenedor-tile-diseños'>
-    <h1>TODOS LOS DISEÑOS</h1>
+    <h1 className='tile-diseños'>TODOS LOS DISEÑOS</h1>
   </div>
   
   {/* DISEÑOS */}
