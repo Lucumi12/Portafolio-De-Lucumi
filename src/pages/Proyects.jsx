@@ -14,6 +14,7 @@ import EmbedTowebgo from './diseños/EmbedTowebgo'
 import BrochureColDevs from './diseños/BrochureColDevs'
 import PortfolioGreen from './diseños/PortfolioGreen'
 import TemplateWebUI from './diseños/TemplateWebUI'
+import PizzaDaily from './diseños/PizzaDaily'
 
 
 
@@ -33,6 +34,7 @@ return (
     <BrochureColDevs />
     <PortfolioGreen />
     <TemplateWebUI />
+    <PizzaDaily />
   </div>
 
 
